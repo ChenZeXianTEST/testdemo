@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf559b06-094a-4bcb-afcf-dc4affaf4313" name="Default" comment="" />
+    <list default="true" id="bf559b06-094a-4bcb-afcf-dc4affaf4313" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +25,7 @@
       <file leaf-file-name="jj.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/jj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="181">
               <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -68,6 +70,9 @@
       <replace>taskid</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -111,6 +116,7 @@
     <option name="width" value="1274" />
     <option name="height" value="765" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
@@ -308,11 +314,11 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.15802172" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995495" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50060314" side_tool="true" weight="0.25675675" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32919955" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32995495" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49939686" weight="0.24662162" />
       <window_info id="Structure" order="1" sideWeight="0.5015015" side_tool="true" weight="0.16043426" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49939686" visible="true" weight="0.2117117" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49939686" visible="true" weight="0.21195039" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -709,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/jj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="181">
           <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
