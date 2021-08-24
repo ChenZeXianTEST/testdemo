@@ -3,10 +3,6 @@ import requests
 import yaml
 
 
-def image_url(num):
-    url = "http://j4.dfcfw.com/charts/pic6/"+num+".png"
-    return url
-
 while True:
     yaml_path = "../data/data.yaml"
     jj_list = []
