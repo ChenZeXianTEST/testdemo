@@ -25,17 +25,12 @@ while True:
         else:
             jj_gz[jj["name"]] = []
             jj_gz[jj["name"]].append(jj["gszzl"])
-
-    new1 = sorted(jj_list, key=lambda e: e["gszzl"], reverse=True)
-    new2 = sorted(jj_list, key=lambda e: e["gszzl"])
     print("\n" + "=" * 50)
-    for dict in new1:
+    for dict in sorted(jj_list, key=lambda e: e["gszzl"], reverse=True):
         if float(dict["gszzl"]) >= 0:
             print(dict["name"] + ":" + str(jj_gz[dict["name"]]))
-            # print(dict["name"] + ":\t" + str(dict["gszzl"]))
-    for dict in new2:
+    for dict in sorted(jj_list, key=lambda e: e["gszzl"]):
         if float(dict["gszzl"]) < 0:
             print(dict["name"] + ":" + str(jj_gz[dict["name"]]))
-            # print(dict["name"] + ":\t" + str(dict["gszzl"]))
     time.sleep(60)
     jj_list.clear()
