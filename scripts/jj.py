@@ -17,7 +17,10 @@ while True:
     for i in info:
         url = "http://fundgz.1234567.com.cn/js/" + i + ".js"
         result = requests.get(url).text.replace("jsonpgz(", "").replace(");", "")
-        jj_list.append(eval(result))
+        try:
+            jj_list.append(eval(result))
+        except:
+            print(result)
     for jj in jj_list:
         if jj["name"] in jj_gz.keys():
             jj_gz[jj["name"]].append(jj["gszzl"])
@@ -32,5 +35,5 @@ while True:
     for dict in sorted(jj_list, key=lambda e: e["gszzl"]):
         if float(dict["gszzl"]) < 0:
             print(dict["name"] + ":" + str(jj_gz[dict["name"]]))
-    time.sleep(60)
+    time.sleep(120)
     jj_list.clear()

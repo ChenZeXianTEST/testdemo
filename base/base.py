@@ -11,7 +11,6 @@ class Base():
         self.driver = driver
 
     def base_find_element(self, loc, timeout=30, poll_frequency=0.5):
-        # sleep(1)
         return WebDriverWait(self.driver, timeout, poll_frequency).until(lambda x: x.find_element(*loc))
 
     def base_input(self, loc, value):
