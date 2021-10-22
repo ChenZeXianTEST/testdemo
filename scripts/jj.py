@@ -4,7 +4,7 @@ import yaml
 
 
 def del_list_origin(list1):
-    if len(list1) > 7:
+    if len(list1) > 10:
         del list1[0]
 
 
@@ -29,7 +29,7 @@ while True:
             jj_gz[jj["name"]] = []
             jj_gz[jj["name"]].append(jj["gszzl"])
     print("\n" + "=" * 50)
-    for dict in sorted(jj_list, key=lambda e: e["gszzl"], reverse=True):
+    for dict in sorted(jj_list, key=lambda e: e["gszzl"], reverse=True): # sorted() 对所有可迭代的对象进行排序操作, 默认升序 reverse = True 降序
         if float(dict["gszzl"]) >= 0:
             print(dict["name"] + ":" + str(jj_gz[dict["name"]]))
     for dict in sorted(jj_list, key=lambda e: e["gszzl"]):
